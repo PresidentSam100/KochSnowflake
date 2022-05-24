@@ -18,7 +18,7 @@ public class KochSnowFlake extends JFrame {
         this.getContentPane().setLayout(new BorderLayout());
         JPanel sliderPanel = new JPanel(new FlowLayout());
         sliderPanel.add(new JLabel("Recursion Depth"));
-        mySlider = new JSlider(0,10,0);
+        mySlider = new JSlider(0,12,0);
         mySlider.setMajorTickSpacing(1);
         mySlider.setPaintTicks(true);
         sliderPanel.add(mySlider);
